@@ -5,11 +5,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 /*---------- Services ----------*/
 import { UsersService } from './users.service';
 
-/*---------- Entities ----------*/
-import { User } from '../entities/user/user.entity';
+/*---------- Schemas ----------*/
+import { UserSchema } from './schemas/users.schema';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([User])],
+  imports: [TypeOrmModule.forFeature([UserSchema])],
   providers: [UsersService],
   exports: [TypeOrmModule],
 })

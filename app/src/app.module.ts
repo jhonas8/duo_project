@@ -13,8 +13,8 @@ import { AppService } from './app.service';
 import { AuthenticationModule } from './authentication/authentication.module';
 import { UsersModule } from './users/users.module';
 
-/*---------- Entities ----------*/
-import { Entities } from './entities';
+/* ----------- Entities ---------- */
+import { Entities } from './typeOrm/entities';
 
 @Module({
   controllers: [AppController],
