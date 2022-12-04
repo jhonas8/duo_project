@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Front-end static files for the project",
+  "main": "index.js",
+  "repository": "https://github.com/jhonas8/duo_project.git",
+  "author": "jhonas8 (love.android62@gmail.com) and Bernardo (bernardojcm.filho@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  }
+}
